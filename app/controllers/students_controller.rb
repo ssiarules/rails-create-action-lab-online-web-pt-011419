@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-  
+
   def index
     @students = Student.all
   end
@@ -17,7 +17,7 @@ class StudentsController < ApplicationController
   @student.last_name = params[:last_name]
   post.save
 
-    
+
   end
 
 end
